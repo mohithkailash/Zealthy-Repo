@@ -23,7 +23,7 @@ function Userpage() {
     console.log(attachment);
 
 
-    axios.post('/user',
+    axios.post('http://localhost:8000/user',
 
       formData
 

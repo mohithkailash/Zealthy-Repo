@@ -15,7 +15,7 @@ const AdminPage = () => {
 
     //display the saved user information 
     useEffect(() => {
-        axios.post('/admin')
+        axios.post('http://localhost:8000/admin')
             .then(response => {
                 console.log(response.data);
                 setUserInfo(response.data)})

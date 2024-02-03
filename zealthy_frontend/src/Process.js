@@ -22,7 +22,7 @@ const Process = () => {
 
   const fetchData = async (userId) => {
     try {
-      const response = await axios.post('/process', {
+      const response = await axios.post('http://localhost:8000/process', {
         userId
       });
       setProcessData(response.data);
@@ -39,7 +39,7 @@ const Process = () => {
 
     console.log(processData)
     try {
-        await axios.post(`/confirm`, {
+        await axios.post(`http://localhost:8000/confirm`, {
             id,
             status
         });
