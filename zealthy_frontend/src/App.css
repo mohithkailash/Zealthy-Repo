@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+/* App.css */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 18px;
+  padding: 15px 30px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+
+.user-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.admin-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+
