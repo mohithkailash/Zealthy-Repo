@@ -8,14 +8,14 @@ const AdminPage = () => {
     const navigate = useNavigate();
     const [userInfo, setUserInfo] = useState([])
 
-    const process = (userId) => {
+    const processId = (userId) => {
         // Send the user ID to port 8000
         navigate(`/admin/process/${userId}`); 
     };
 
     //display the saved user information 
     useEffect(() => {
-        axios.post('/admin')
+        axios.post(`${process.env.REACT_APP_BACKEND_ADDRESS}/admin`)
             .then(response => {
                 console.log(response.data);
                 setUserInfo(response.data)})
@@ -59,7 +59,7 @@ const AdminPage = () => {
                 )}
                 </td>
                 <td>{user.status}</td>
-                <td> <button className="gooey-button"  onClick={() => process(user._id)}>Process</button></td>
+                <td> <button className="gooey-button"  onClick={() => processId(user._id)}>Process</button></td>
               </tr>
             ))}
           </tbody>

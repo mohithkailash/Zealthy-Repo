@@ -4,6 +4,7 @@
 zealthy_frontend/node_modules
 zealthy_backend/node_modules
 zealthy_backend/.env
+zealthy_frontend/.env
 /.pnp
 .pnp.js
 

@@ -23,7 +23,7 @@ function Userpage() {
     console.log(attachment);
 
 
-    axios.post('/user',
+    axios.post(`${process.env.REACT_APP_BACKEND_ADDRESS}/user`,
 
       formData
 
