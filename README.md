@@ -1,6 +1,7 @@
 # Zealthy Coding Exercise
 
 Welcome to the Zealthy Coding Exercise! This project showcases a web application developed with ReactJS for the frontend and NodeJS (ExpressJS) for the backend.
+[Project UPL](http://34.203.220.74/).
 
 ## Project Overview
 
