@@ -3,7 +3,11 @@
 Welcome to the Zealthy Coding Exercise! This project showcases a web application developed with ReactJS for the frontend and NodeJS (ExpressJS) for the backend.
 
 
-Access the Project here: [Project URL](http://34.203.220.74/).
+Access the Project here: [Project URL](http://34.203.220.74/). (Don't mind the strange URL, it can't be edited with AWS EC2 free version)
+
+## Working Video
+https://github.com/mohithkailash/Zealthy-Repo/assets/50114158/b2871c4f-fd2d-4419-8dde-6037d3aa656b
+
 
 ## Project Overview
 
@@ -32,11 +36,6 @@ To run the project locally, follow these steps:
 - MongoDB Atlas is used as the database server.
 - The application is hosted on AWS EC2 free version.
 
-## Working Video
-
-For a visual demonstration of the website's functionality, please refer to the [working video](link_to_video).
-
-Feel free to explore the code and contribute to the project!
 
 ---
 *Note: Ensure you have NodeJS and npm installed on your system before running the project.*
