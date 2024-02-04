@@ -13,10 +13,10 @@ const Home = () => {
     }
     return (
         <div className="container">
-            <h1>Are you ....</h1>
+            <h1>Do you want access ...</h1>
             <div className="buttons-container">
-                <button className="gooey-button" onClick={userClick}> an user want to submit a query</button>
-                <button className="gooey-button" onClick={adminClick}> an back-admin team member</button>
+                <button className="gooey-button" onClick={userClick}> User query page</button>
+                <button className="gooey-button" onClick={adminClick}> Admin dashboard</button>
             </div>
         </div>
     );
