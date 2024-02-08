@@ -3,7 +3,7 @@
 Welcome to the Zealthy Coding Exercise! This project showcases a web application developed with ReactJS for the frontend and NodeJS (ExpressJS) for the backend.
 
 
-Access the Project here: [Project URL](http://44.221.202.143:3000/). 
+Access the Project through elastic IP to the EC2 instance here: [Project URL](http://44.221.202.143/). 
 
 ## Working Video
 
