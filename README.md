@@ -3,10 +3,10 @@
 Welcome to the Zealthy Coding Exercise! This project showcases a web application developed with ReactJS for the frontend and NodeJS (ExpressJS) for the backend.
 
 
-Access the Project here: [Project URL](http://34.203.220.74/). 
+Access the Project here: [Project URL](http://44.221.202.143:3000/). 
 
 ## Working Video
-https://github.com/mohithkailash/Zealthy-Repo/assets/50114158/b2871c4f-fd2d-4419-8dde-6037d3aa656b
+
 
 
 ## Project Overview
