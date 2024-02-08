@@ -8,6 +8,10 @@ Access the Project here: [Project URL](http://44.221.202.143:3000/).
 ## Working Video
 
 
+https://github.com/mohithkailash/Zealthy-Repo/assets/50114158/9af0b9dc-9907-4809-93fc-383a5771f4a3
+
+
+
 
 ## Project Overview
 
