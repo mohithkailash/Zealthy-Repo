@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-container {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    color: #000;
+}
+
+.title-primary {
+    color: #474747;
+    margin: 0;
+}
+
+.title-secondary {
+    color: #9FA6B2;
+    font-size: 40px;
+    margin: 0;
+}
+
+
+
+@media (max-width: 768px) {
+    .title-container {
+        font-size: 1.5rem;
+    }
+
+    .title-primary {
+        font-size: 24px;
+    }
+
+    .title-secondary {
+        font-size: 32px;
+    }
+
+    .buttons-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+}

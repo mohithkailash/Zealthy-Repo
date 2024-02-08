@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.process-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 40%;
+}
+
+.process-details {
+    font-size: 16px;
+}
+
+.text {
+    text-align: left;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .process-container {
+        width: 80%;
+    }
+
+}

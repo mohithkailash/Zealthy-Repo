@@ -1,0 +1,39 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.label {
+    margin-right: auto;
+}
+
+.input-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input-field.error {
+    border-color: red;
+}
+
+.error-label {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-right: auto;
+}
+
+textarea.input-field {
+    height: 100px;
+    resize: vertical;
+    width: auto;
+}
+
+.required-star {
+    color: red;
+    margin-left: 4px;
+}
